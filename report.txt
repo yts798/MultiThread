@@ -1,0 +1,1 @@
+The strategy is allocating large program first so they will occupy cpu with shortest time, then I will fill the gap with quicker process. And if the parallelisable process is too short, we do not split them to avoid split cost.
